@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* classi universali */
+ul{
+  list-style: none;
+}
+li{
+  color: #808080;
+  line-height: 40px;
+}
+.lightblue-text{
+  color: rgb(188, 225, 238);
+}
+.lightgray-text{
+  color: lightgray;
+}
+.up-text{
+  text-transform: uppercase;
+}
+.bold{
+  font-weight: bold;
+}
+.box{
+  box-shadow:1px 1px 4px 2px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 5px;
+  top: 10vh;
+  display: none;
+}
+li span{
+  position: absolute;
+  color: rgb(27, 121, 228);
+  top:-15px;
+  right: 0px;
+  font-size: 9px;
+}
+.active{
+  display:inline-block;
+}
+/* / classi universali */
+header{
+  width: 100%;
+  height: 15vh;;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main{
+  background-color: lightblue;
+  height: 85vh;
+}
+.nav-logo{
+  width: 20%;
+}
+.nav-button{
+  width: 40%;
+}
+.nav-logo ul,
+.nav-button ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+.nav-logo ul li,
+.nav-button ul li{
+  display: inline;
+}
+/* bottoni */
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+.btn-grey{
+  background-color: lightgray;
+  color: #000000;
+}
+.btn-black{
+  background-color: #000000;
+  color: #FFFFFF;
+}
+/* /bottoni */
+/* menu a scoparsa */
+.list-functionality{
+  width: 60%;
+  left: 27.5%;
+}
+.list-functionality li{
+  position: relative;
+}
+li span.special-pos{
+  right: 80px;
+  top: -12px;
+}
+.list-subscriptions{
+  left: 58%;
+}
+.list-who{
+  left: 64%;
+}
+.list-help{
+  left: 69.5%;
+}
+/* /menu a scoparsa */
+/* Hover */
+li:hover{
+  cursor: pointer;
+  color: #000000;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.lightblue-text:hover{
+  color: rgb(188, 225, 238);
+  cursor:default;
+}
+.lightgray-text:hover{
+  color: lightgray;
+  cursor:default;
+}
+/* /Hover */
