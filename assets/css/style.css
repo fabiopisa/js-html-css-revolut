@@ -123,3 +123,6 @@ button:hover{
   cursor:default;
 }
 /* /Hover */
+.active{
+  display: flex;
+}
