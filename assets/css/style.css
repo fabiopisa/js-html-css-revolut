@@ -24,27 +24,6 @@ li{
 .bold{
   font-weight: bold;
 }
-.box{
-  box-shadow:1px 1px 4px 2px rgba(0, 0, 0, 0.3);
-  position: absolute;
-  background-color: #FFFFFF;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  border-radius: 5px;
-  top: 10vh;
-  display: none;
-}
-li span{
-  position: absolute;
-  color: rgb(27, 121, 228);
-  top:-15px;
-  right: 0px;
-  font-size: 9px;
-}
-.active{
-  display:inline-block;
-}
 /* / classi universali */
 header{
   width: 100%;
@@ -63,15 +42,12 @@ main{
 .nav-button{
   width: 40%;
 }
-.nav-logo ul,
-.nav-button ul{
+.nav-logo>ul,
+.nav-button>ul{
   display: flex;
   justify-content: space-evenly;
 }
-.nav-logo ul li,
-.nav-button ul li{
-  display: inline;
-}
+
 /* bottoni */
 .btn{
   border: none;
@@ -88,25 +64,45 @@ main{
 }
 /* /bottoni */
 /* menu a scoparsa */
+.box{
+  position: absolute;
+  right: 12%;
+  background-color: #FFFFFF;
+  box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.3);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 50%;
+  border-radius: 5px;
+  display: none;
+}
+.small-box{
+  width: 150px;
+}
 .list-functionality{
-  width: 60%;
-  left: 27.5%;
+}
+.list-subscriptions{
+  right: 34%;
+}
+.list-who{
+  right: 27%;
+}
+.list-help{
+  right: 22%;
 }
 .list-functionality li{
   position: relative;
 }
+li span{
+  position: absolute;
+  color: rgb(27, 121, 228);
+  top:-15px;
+  right: 0px;
+  font-size: 9px;
+}
 li span.special-pos{
   right: 80px;
   top: -12px;
-}
-.list-subscriptions{
-  left: 58%;
-}
-.list-who{
-  left: 64%;
-}
-.list-help{
-  left: 69.5%;
 }
 /* /menu a scoparsa */
 /* Hover */
